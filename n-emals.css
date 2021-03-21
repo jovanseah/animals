@@ -1,0 +1,64 @@
+* {
+    text-align: center;
+    font-size: 30px;
+}
+.wrapper {
+    width:1000px;
+    background-color:ghostwhite;
+}
+
+.navbar {
+    background-color:lightgrey;
+    position:sticky;
+    top:0px;
+    box-shadow: 5px 5px 10px red;
+}
+.content {
+    width: 580px;
+    margin: 10px;
+    float: left;
+
+}
+.sidebar {
+    width: 380px;
+    float: right;
+    margin: 10px;
+    position:sticky;
+    top:60px;
+
+}
+.stories {
+    background-color:lightblue;
+    height: 200px;
+    margin: 10px;
+}
+.suggestions {
+    background-color: palegreen;
+    height: 200px;
+    margin: 10px;
+}
+.footer {
+    background-color: lightgrey;
+    clear: both;
+}
+.photos{
+    width: 600px;
+    
+}
+#active{
+    color: crimson;
+    font-weight: bold;
+}
+
+.dropdown-content{
+    display: none;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    box-shadow: 5px 5px 10px;
+    color: brown;
+    margin-bottom: 10px;
+}
+.dropdown{
+    display: inline-block;
+}

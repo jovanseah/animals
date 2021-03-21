@@ -1,0 +1,17 @@
+.fade-in{
+    animation-name: fade-in-animation;
+    animation-duration: 6s;
+}
+@keyframes fade-in-animation{
+    from{
+        opacity: 0;
+        width: 0px;
+        transform: rotate(280deg);
+    }
+
+    to{
+        opacity: 1;
+        width: 560px;
+        transform: rotate(0deg);
+    }
+}
